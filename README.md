@@ -38,6 +38,30 @@
 
 ---
 
+## 📸 System Previews & Screenshots
+
+### 🏠 Public Portal & Authentication
+| Landing Page & Live Broadcast Marquee | Sign In & Authentication Portal |
+| :---: | :---: |
+| ![Landing Page](screenshots/home.png) | ![Sign In Portal](screenshots/login.png) |
+
+### 🧭 Traveler Safety Hub & Companion Dashboard
+| Traveler Dashboard (SOS, Tracking & AI Assistant) | Verified Accommodations & Trust Score Directory |
+| :---: | :---: |
+| ![Traveler Dashboard](screenshots/traveler_dashboard.png) | ![Accommodations Directory](screenshots/accommodations.png) |
+
+### 🏢 Multi-Tenant Administration Consoles
+| Organization Admin Dashboard | Super Administrator Platform Overview |
+| :---: | :---: |
+| ![Organization Admin](screenshots/admin_dashboard.png) | ![Super Admin Console](screenshots/super_admin_dashboard.png) |
+
+### 🗺️ Destinations & Tour Packages
+| Destinations & Safety Risk Explorer | Curated Tour Packages Catalog |
+| :---: | :---: |
+| ![Destinations Explorer](screenshots/destinations.png) | ![Tour Packages](screenshots/packages.png) |
+
+---
+
 ## 🛠️ Technology Stack
 
 - **Backend**: Native PHP 8+ (Modular MVC-style REST API architecture)
@@ -75,6 +99,7 @@ sahayatri/
 │   └── helpers.php            # Security & JSON response utilities
 ├── includes/                  # Common UI components
 │   └── navbar.php             # Dynamic navigation bar
+├── screenshots/               # Application UI previews & screenshots
 ├── accommodation_details.php  # Accommodation view page
 ├── accommodations.php         # Public accommodation directory
 ├── admin_dashboard.php        # Organization Admin control panel
